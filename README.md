@@ -33,7 +33,7 @@ Both services use H2 in-memory databases and communicate via JWT tokens for stat
 
 1. Clone and navigate to the project:
 ```bash
-git clone <your-repo-url>
+git clone git clone https://github.com/ErikaBakirova/europace-todo-app.git
 cd europace-todo-app
 ```
 
