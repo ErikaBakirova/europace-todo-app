@@ -90,7 +90,7 @@ The easiest way to test the API is using the built-in Swagger UI interface.
 #### 2. Authenticate in Todo Service
 1. Open Todo Service Swagger UI: http://localhost:8082/swagger-ui/index.html
 2. Click the **🔓 lock icon** ("Authorize" button) at the top of the page
-3. In the authorization popup, enter: **Bearer YOUR_TOKEN_HERE**
+3. In the authorization popup, enter: **YOUR_TOKEN_HERE**
    - ⚠️ **Important**: Don't add "Bearer" prefix before your token
    - ✅ Example: `eyJhbGciOiJIUzI1NiJ9...`
 4. Click **"Authorize"**
