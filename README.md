@@ -37,7 +37,12 @@ git clone git clone https://github.com/ErikaBakirova/europace-todo-app.git
 cd europace-todo-app
 ```
 
-2. Build and start the services:
+2. Build the Maven project first (required for Docker):
+```bash
+mvn clean install
+```
+
+3. Build and start the services:
 ```bash
 docker-compose up --build
 ```
